@@ -1,0 +1,156 @@
+@font-face {
+  font-family: "SFProDisplay";
+  src: url("./assets/fonts/SFProDisplay-Regular.ttf");
+}
+
+body {
+  font-family: "SFProDisplay";
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  position: absolute;
+  width: 100vw;
+  padding-top: 50px;
+}
+
+.nav {
+  color: white;
+  display: flex;
+  background-color: transparent;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 50px;
+}
+
+.main {
+  background-image: url(./assets/images/Bitmap.jpg);
+  background-size: cover;
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  height: 520px;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 150px;
+  color: white;
+  padding: 45px;
+  background-color: rgba(0, 0, 0, 0.8122);
+  border-radius: 6px;
+}
+
+.form__title {
+  font-size: 36px;
+}
+
+.form__input {
+  width: 350px;
+  height: 45px;
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.btn-login {
+  background-color: #0578ff;
+  width: 350px;
+  height: 45px;
+  border-radius: 4px;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  transition: 500ms;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-login:hover {
+  background-color: #053fff;
+}
+
+.form__options {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form__options--remember label {
+  margin-left: 25px;
+}
+
+.form__facebook {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.btn-blue {
+  background-color: #0578ff;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  height: 34px;
+  width: 115px;
+  left: 0px;
+  top: 0px;
+  cursor: pointer;
+}
+
+.btn-blue:hover {
+  background-color: #053fff;
+}
+
+.btn-black {
+  background-color: transparent;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  height: 34px;
+  width: 115px;
+  left: 0px;
+  top: 0px;
+  cursor: pointer;
+}
+
+.footer {
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  width: 100%;
+  min-height: 250px;
+  left: 0px;
+  top: -10px;
+}
+
+.test-footer {
+  display: flex;
+  justify-content: space-around;
+  width: 1500px;
+  height: 150px;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.text-questions {
+  margin-left: 125px;
+}
+
+.p {
+  padding: 10px;
+}
